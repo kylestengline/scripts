@@ -6,6 +6,7 @@ then
   EX: github <githubusername> <reponame>"
   exit 1
 else
+  echo "Hi "$1""
   echo "Creating Git Repo named: "$2""
   mkdir $2
   cd $2
