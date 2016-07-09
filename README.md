@@ -16,8 +16,8 @@
 - ``` git push origin master ```
 
 ### Notes on github.sh
-- This script uses the ssh to push to master. I'm working on ways to have you
-  select either option.
+- This script uses the ssh to push to master. I'm working on ways to have users
+  select either origin or upstream options.
 
 ### udemy.sh
 - This script opens my udemy courses
