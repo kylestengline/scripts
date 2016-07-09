@@ -10,7 +10,7 @@
 - Make the directory
 - Go into the directory 
 - Initialize the repo by creating a ``` .gitignore ``` and ``` README.md ```
-- Then ``` git add . ``` ``` commit -m "Initial Commit" ``` and of course ``` push to origin ```
+- Then ``` git add . ```, ``` git commit -m "Initial Commit" ```, and of course ```git push origin master ```
 
 ### Notes on github.sh
 - This script uses the ssh to push to master. I'm working on ways to have you
