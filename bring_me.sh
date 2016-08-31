@@ -14,9 +14,6 @@ case "$1" in
   "rspec")
     open https://www.udemy.com/rubyonrails-bdd-rspec-capybara/learn/v4/overview
     ;;
-  "scripting")
-    open https://www.udemy.com/shell-scripting-linux/learn/v4/overview
-    ;;
   "netflix")
     open https://www.netflix.com/browse
     ;;
