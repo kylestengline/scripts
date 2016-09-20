@@ -19,8 +19,7 @@
 - This script uses the ssh to push to master. I'm working on ways to have users
   select either origin or upstream options.
 
-### udemy.sh
-- This script opens my udemy courses
-- ``` udemy <nameofcourse> ```
-- Working on ways to make this more dynamic for other users, but as of 07/09/16
-  it only works for my courses
+### bring me
+- This script opens netflix and my udemy courses
+- ``` ./bring_me.sh <nameofcourse> ```
+- Working on ways to make this more dynamic for other users 07/09/16.
