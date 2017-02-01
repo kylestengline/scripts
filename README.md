@@ -9,17 +9,18 @@
 ### This script will:
 - Make the directory
 - Go into the directory 
-- Initialize the repo by creating a ``` .gitignore ``` and ``` README.md ```
+- Initialize the repo and create a ``` .gitignore ``` and ``` README.md ```
 - Then: 
 - ``` git add . ```
 - ``` git commit -m "Initial Commit" ```
+- ``` git remote add origin ```
 - ``` git push origin master ```
 
 ### Notes on github.sh
-- This script uses the ssh to push to master. I'm working on ways to have users
-  select either origin or upstream options.
+- This script uses the ssh key to push to master.
+- I'm working on ways to have users select either origin or upstream options.
 
 ### bring me
-- This script opens netflix and my udemy courses
+- This script opens netflix and my udemy courses for me.
 - ``` ./bring_me.sh <nameofcourse> ```
-- Working on ways to make this more dynamic for other users 07/09/16.
+- Still working on ways to make this more dynamic for other users 01/31/17.
