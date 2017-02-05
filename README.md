@@ -37,4 +37,8 @@
 - This script will then checkout back to the branch you merged.
 - Note: You must push up to the current branch before running this script.
 - Run it like so:
-- ``` merge_branch.sh <branchyouwanttomerge> ```
+- ``` ./merge_branch.sh <branchyouwanttomerge> ```
+
+### deploy.sh
+- Deploys to firebase or heroku
+- Run by: ``` ./deploy.sh <heroku> ``` OR ./deploy.sh <firebase>
