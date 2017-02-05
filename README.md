@@ -28,6 +28,6 @@
 - EX: ``` gpom.sh <mycommitmessage> ```
 - You have the option of adding ``` " " ```, but it is not required.
 - This script runs the following:
-``` git add . ```
-``` git commit -m <your commit message> ```
-``` git push ```
+- ``` git add . ```
+- ``` git commit -m <your commit message> ```
+- ``` git push ```
