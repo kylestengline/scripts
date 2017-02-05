@@ -1,7 +1,5 @@
 # Scripts
 
-## This repo contains some scripts I wrote. 
-
 ### github.sh
 - This script takes two arguments: Your github username and the name of your repo. 
 -  ``` github <githubusername> <reponame> ```
@@ -20,7 +18,16 @@
 - This script uses the ssh key to push to master.
 - I'm working on ways to have users select either origin or upstream options.
 
-### bring me
+### bring_me.sh
 - This script opens netflix and my udemy courses for me.
 - ``` ./bring_me.sh <nameofcourse> ```
 - Still working on ways to make this more dynamic for other users 01/31/17.
+
+### gpom.sh
+- This script takes one argument, your ``` git commit -m  ``` message.
+- EX: ``` gpom.sh <mycommitmessage> ```
+- You have the option of adding ``` " " ```, but it is not required.
+- This script runs the following:
+``` git add . ```
+``` git commit -m <your commit message> ```
+``` git push ```
