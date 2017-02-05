@@ -2,7 +2,7 @@
 
 ### github.sh
 - This script takes two arguments: Your github username and the name of your repo. 
--  ``` github <githubusername> <reponame> ```
+-  ``` ./github.sh <githubusername> <reponame> ```
 
 ### This script will:
 - Make the directory
@@ -25,7 +25,7 @@
 
 ### gpom.sh
 - This script takes one argument, your ``` git commit -m  ``` message.
-- EX: ``` gpom.sh <mycommitmessage> ```
+- EX: ``` ./gpom.sh <mycommitmessage> ```
 - You have the option of adding ``` " " ```, but it is not required.
 - This script runs the following:
 - ``` git add . ```
