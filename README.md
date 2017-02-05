@@ -25,7 +25,7 @@
 
 ### gpom.sh
 - This script takes one argument, your ``` git commit -m  ``` message.
-- EX: ``` ./gpom.sh <mycommitmessage> ```
+- EX: ``` ./gpom.sh <my commit message> ```
 - You have the option of adding ``` " " ```, but it is not required.
 - This script runs the following:
 - ``` git add . ```
