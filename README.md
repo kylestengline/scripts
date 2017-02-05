@@ -31,3 +31,10 @@
 - ``` git add . ```
 - ``` git commit -m <your commit message> ```
 - ``` git push ```
+
+### merge_branch.sh
+- This script merges the current branch to master.
+- This script will then checkout back to the branch you merged.
+- Note: You must push up to the current branch before running this script.
+- Run it like so:
+- ``` merge_branch.sh <branchyouwanttomerge> ```
