@@ -41,4 +41,4 @@
 
 ### deploy.sh
 - Deploys to firebase or heroku
-- Run by: ``` ./deploy.sh <heroku> ``` OR ./deploy.sh <firebase>
+- Run by: ``` ./deploy.sh <heroku> ``` OR ``` ./deploy.sh <firebase> ```
