@@ -23,9 +23,9 @@
 - ``` ./bring_me.sh <nameofcourse> ```
 - Still working on ways to make this more dynamic for other users 01/31/17.
 
-### gpom.sh
+### gacp.sh
 - This script takes one argument, your ``` git commit -m  ``` message.
-- EX: ``` ./gpom.sh <my commit message> ```
+- EX: ``` ./gacp.sh <my commit message> ```
 - You have the option of adding ``` " " ```, but it is not required.
 - This script runs the following:
 - ``` git add . ```
