@@ -3,7 +3,6 @@
 ### github.sh
 - This script takes two arguments: Your github username and the name of your repo. 
 -  ``` ./github.sh <githubusername> <reponame> ```
-
 ### This script will:
 - Make the directory
 - Go into the directory 
@@ -42,3 +41,7 @@
 ### deploy.sh
 - Deploys to firebase or heroku
 - Run by: ``` ./deploy.sh <heroku> ``` OR ``` ./deploy.sh <firebase> ```
+
+### loc_host.sh
+- Runs local host for react and rails and opens the browser
+- Run by: ``` ./loc_host.sh <rails> ``` OR ``` ./loc_host.sh <react> ```
