@@ -3,6 +3,7 @@
 ### github.sh
 - This script takes two arguments: Your github username and the name of your repo. 
 -  ``` ./github.sh <githubusername> <reponame> ```
+
 ### This script will:
 - Make the directory
 - Go into the directory 
