@@ -1,17 +1,19 @@
 #!/bin/bash
 
 BRANCH=$1
+OTHER_BRANCH=$2
 
-if [ -z $BRANCH ]
+if [ -z "$BRANCH" ] || [ -z "$OTHER_BRANCH" ]
 then
-  read -p "What branch would you like to merge? " BRANCH
-  git checkout master
-  git merge $BRANCH
-  git push origin master
-  git checkout $BRANCH
+  read -p "Merge this branch: " BRANCH
+  read -p "With this branch: " OTHER_BRANCH
+  git checkout "$OTHER_BRANCH"
+  git merge "$BRANCH"
+  git push origin "$OTHER_BRANCH"
+  git checkout "$BRANCH"
 else
-  git checkout master
-  git merge $BRANCH
-  git push origin master
-  git checkout $BRANCH
+  git checkout "$OTHER_BRANCH"
+  git merge "$BRANCH"
+  git push origin "$OTHER_BRANCH"
+  git checkout "$BRANCH"
 fi
