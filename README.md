@@ -41,8 +41,8 @@
 
 ### deploy.sh
 - Deploys to firebase or heroku
-- Run by: ``` ./deploy.sh <heroku> ``` OR ``` ./deploy.sh <firebase> ```
+- Run by: ``` ./deploy.sh heroku ``` OR ``` ./deploy.sh firebase ```
 
 ### loc_host.sh
 - Runs local host for react and rails and opens the browser
-- Run by: ``` ./loc_host.sh <rails> ``` OR ``` ./loc_host.sh <react> ```
+- Run by: ``` ./loc_host.sh rails ``` OR ``` ./loc_host.sh react ``` OR ``` ./loc_host.sh firebase ``` 

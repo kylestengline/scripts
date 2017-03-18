@@ -14,6 +14,11 @@ while true; do
       rails s
       break
       ;;
+    firebase)
+      open http://localhost:5000/
+      firebase serve
+      break
+      ;;
     exit)
       exit 1
       break
