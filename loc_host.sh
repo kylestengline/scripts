@@ -24,7 +24,7 @@ while true; do
       break
       ;;
     *)
-      read -p "Specify rails or react? " HOST
+      read -p "Specify rails, react or firebase. " HOST
       ;;
   esac
 done
