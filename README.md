@@ -38,6 +38,7 @@
 - Note: You must push up to the current branch before running this script.
 - Run it like so:
 - ``` ./merge_branch.sh <branchyouaremerging> <branchyouwanttomergeinto> ```
+- For example, if I'm in branch development and I want to merge into master, I would run ``` ./merge_branch.sh development master ```
 
 ### deploy.sh
 - Deploys to firebase or heroku
