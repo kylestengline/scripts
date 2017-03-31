@@ -45,5 +45,5 @@
 - Run by: ``` ./deploy.sh heroku ``` OR ``` ./deploy.sh firebase ```
 
 ### loc_host.sh
-- Runs local host for react and rails and opens the browser
+- Opens the browser and starts a local host.
 - Run by: ``` ./loc_host.sh rails ``` OR ``` ./loc_host.sh react ``` OR ``` ./loc_host.sh firebase ``` 
