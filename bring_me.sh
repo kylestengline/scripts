@@ -23,7 +23,10 @@ case "$1" in
   "netflix")
     open https://www.netflix.com/browse
     ;;
+  "github")
+    open https://github.com/kylestengline
+    ;;
   *)
-    echo "This script takes one of the following arguments: react, ios, js, rspec, netflix" ; exit 1
+    echo "This script takes one of the following arguments: react, ios, js, rspec, netflix, github" ; exit 1
     ;;
 esac
