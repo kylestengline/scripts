@@ -19,6 +19,11 @@ while true; do
       firebase serve
       break
       ;;
+    react-rails)
+      open http://localhost:5000/
+      foreman start
+      break
+      ;;
     exit)
       exit 1
       break
